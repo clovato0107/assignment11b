@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- grid -->
+    <div id="player"></div>
+    <div class="board">
+      <div class="row">
+        <div class="col square" id="1"></div>
+        <div class="col square" id="2"></div>
+        <div class="col square" id="3"></div>
+      </div>
+      <div class="row">
+        <div class="col square" id="4"></div>
+        <div class="col square" id="5"></div>
+        <div class="col square" id="6"></div>
+      </div>
+      <div class="row">
+        <div class="col square" id="7"></div>
+        <div class="col square" id="8"></div>
+        <div class="col square" id="9"></div>
+      </div>
+    </div>
+    <!-- buttons -->
+    <div class="d-grid col-3 gap-4 mx-auto pt-4">
+      <button id="resetBtn" type="button" class="btn btn-primary">Reset</button>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+    <script src="script.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
